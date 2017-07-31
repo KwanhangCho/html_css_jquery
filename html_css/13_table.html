@@ -6,9 +6,17 @@
 		table{
 			 border : 1px solid black;
 			 caption-side: bottom;
+			 border-collapse: collapse;
+			 text-align: center;
+		}
+		td, th{
+			border : 1px dotted gray;
 		}
 		caption{
 			font-size: 8px;
+		}
+		.city{
+			background-color: orange;
 		}
 	</style>
 </head>
@@ -17,18 +25,53 @@
 		<tr>
 			<th>CITY</th>
 			<th>TEMP</th>
-			<th>kkkk</th>
+			<th colspan="3">kkkk</th>
+			<!--<th>kkkk</th>
+			<th>kkkk</th>-->
 		</tr>
 
-		<tr>
+		<tr class = "city">
 			<td>seoul</td>
 			<td>29</td>
+			<td>ggggg</td>
 			<td>ggggg</td>	
+			<td rowspan="3">ggggg</td>
 		</tr>
 
-		<tr>
+		<tr class = "city">
 			<td>dae-gu</td>
 			<td>31</td>
+			<td>ggggg</td>
+			<td>ggggg</td>
+		</tr>
+		<tr class = "city">
+			<td>dae-gu</td>
+			<td>31</td>
+			<td>ggggg</td>
+			<td>ggggg</td>
+		</tr><tr class = "city">
+			<td>dae-gu</td>
+			<td>31</td>
+			<td>ggggg</td>
+			<td>ggggg</td>
+			<td>ggggg</td>
+		</tr><tr class = "city">
+			<td>dae-gu</td>
+			<td>31</td>
+			<td>ggggg</td>
+			<td>ggggg</td>
+			<td>ggggg</td>
+		</tr><tr class = "city">
+			<td>dae-gu</td>
+			<td>31</td>
+			<td>ggggg</td>
+			<td>ggggg</td>
+			<td>ggggg</td>
+		</tr><tr class = "city">
+			<td>dae-gu</td>
+			<td>31</td>
+			<td>ggggg</td>
+			<td>ggggg</td>
 			<td>ggggg</td>
 		</tr>
 		<caption> city's temperature </caption>
